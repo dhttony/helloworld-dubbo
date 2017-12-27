@@ -11,7 +11,7 @@
 	<!-- 使用multicast广播注册中心暴露服务地址 -->
 	<!-- <dubbo:registry address="multicast://192.168.0.101:2181" /> -->
 	<!-- 使用zookeeper广播注册中心暴露服务地址 -->
-	<dubbo:registry protocol="zookeeper" address="192.168.1.9:2181" />
+	<dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" />
 	<!-- <dubbo:registry protocol="zookeeper" address="192.168.0.101:2181"/> -->
 
 	<!--和上面的配置是一样的效果 -->
